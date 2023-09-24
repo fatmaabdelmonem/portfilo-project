@@ -1,0 +1,435 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.contenair{
+    position: relative;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.contenair .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.NAV{
+    width: 100%;
+    background-color: antiquewhite;
+    height: 18%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: auto;
+    width: 100%;
+}
+header ul li{
+    display: inline-block;
+    padding: 50px 30px;
+}
+header ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(4, 4, 4);
+    transition: 0.5s;   
+}
+a.AA:hover{
+    color: rgba(78, 18, 244, 0.838);
+    transition: 0.5s;
+    transform: scale(1.3);
+}
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(4, 4, 4);
+    padding: 50px 30px;
+}
+span{
+    color: rgba(78, 18, 244, 0.838);
+    
+}
+header h2 a{
+    color: black;
+}
+header h2 a:hover,span:hover{
+    color: rgba(78, 18, 244, 0.838);
+    transition: 0.3s;
+    padding: 2px;
+}
+.content{
+    margin-left: 8%;
+    margin-top: 0;
+}
+.content .imag img{
+    width: 320px;
+}
+.content .text{
+    width: 100%;
+    line-height: 65px;
+    color: rgba(78, 18, 244, 0.838);
+}
+.content .text h4{
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: black;
+}
+.content .text h1{
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+.content .text h3{
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: #000;
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-style: groove;
+    border-width: 1px;
+    border-color: blueviolet;
+}
+
+.cv{
+    color: aliceblue;
+    background-color: rgb(138, 43, 226);
+    border-radius: 5%;
+    padding: 7px 10px;
+   transition: 0.3s;
+}
+.cv:hover{
+    background-color: transparent;
+    outline: none;
+    border-color: blueviolet;
+    border-width: 2px;
+    border-style:dashed;
+    color: #000;
+}
+.content .imag {
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+.Home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    margin: auto;
+    height: 100vh;  
+    background-color: rgb(254, 239, 222);
+}
+body{
+    width:100%;
+    height: 108vh;
+    background-color: antiquewhite;
+}
+.icon{
+    width: 30px;
+    padding: 4px;
+    margin-right: 20px;
+}
+.contenair .contactinfo .box .text{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contactform{
+    width: 40%;
+    padding: 45px;
+    background-color: aliceblue;
+    margin-bottom: 50px;
+    border: solid;
+    border-color: #000;
+    border-width: 1px;
+}
+.contactform h2{
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputbox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(21, 21, 20);
+}
+.contactform .inputbox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(21, 21, 20);
+    height: 70px;
+}
+.I{
+    width:15px;
+    transition: 0.5s; 
+    cursor: pointer;
+    margin-left: 20px;
+}
+.contactform .inputbox button{
+    width: 100%;
+    color:blueviolet;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px 0;
+    border: none;
+    border-bottom: 1px groove black;
+    cursor: pointer;
+}
+.contactform .inputbox button:hover{
+    transform: scale(1.1);
+}
+ .I:hover{
+    transform: scale(1.5);
+}
+.aboutt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.textabout{
+    width: 60%;
+    font-size: large;
+}
+.About{
+    display: block;
+    justify-content: space-between;
+    align-items: left; 
+    width: 100%;
+    margin: auto;
+    height: 100vh;  
+    background-color: rgb(254, 239, 222);
+   
+}
+.photo img{
+    width: 390px;
+    padding: 60px;
+}
+.Skills{
+    display: block;
+    justify-content: space-between;
+    align-items: left; 
+    width: 100%;
+    margin: auto;
+    height: 100vh;  
+}
+.skillsarea{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 20%;
+}
+.skill{
+    position: relative;
+    margin-bottom: 10px;
+}
+.skillTitle{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.skillfill{
+    background-color: blueviolet;
+    height: 15px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    overflow: hidden;
+}
+.perc{
+    color: azure;
+    font-size: 10px;
+}
+.skillBar{
+    width: 100%;
+    background-color: rgb(117, 100, 132);
+    height:15px ;
+    z-index: -1;
+    border-radius: 20%;
+    position: absolute;
+}
+.html{
+    animation: html 50s;
+    width: 95%;
+}
+.css{
+    animation: css 50s;
+    width: 90%;
+}
+.js{
+    animation: js 50s;
+    width: 70%;
+}
+.java{
+    animation: java 50s;
+    width: 50%;
+}
+.sql{
+    animation: sql 50s;
+    width: 70%;
+}
+.cpp{
+    animation: cpp 50s;
+    width: 90%;
+}
+.csharp{
+    animation: csharp 50s;
+    width: 40%;
+}
+.paython{
+    animation: paython 50s;
+    width: 70%;
+}
+@keyframes html {
+    from{width: 0;}
+    to{width: 95%;}
+}
+@keyframes css {
+    from{width: 0;}
+    to{width: 90%;}
+}
+@keyframes js {
+    from{width: 0;}
+    to{width: 70%;}
+}
+@keyframes cpp {
+    from{width: 0;}
+    to{width: 90%;}
+}
+@keyframes java {
+    from{width: 0;}
+    to{width: 50%;}
+}
+@keyframes paython {
+    from{width: 0;}
+    to{width: 70%;}
+}
+@keyframes sql {
+    from{width: 0;}
+    to{width: 70%;}
+}
+@keyframes csharp {
+    from{width: 0;}
+    to{width: 40%;}
+}
+.Projects{
+    padding: 10px 0;
+    width: 100%;
+    margin: auto;
+    height: 100vh;  
+}
+.Projects .containerproj .row .item img{
+    max-width: 100%;
+}
+.Projects .containerproj .row .item:hover{
+    transform: scale(1.1);
+}
+.Projects .containerproj .row .item{
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+    margin: 50px;
+}
+.footer{
+    font-size: 10px;
+    width: 100%;
+    margin: auto;
+    padding: 8px; 
+    display: flex;
+    justify-content: left;
+    align-items: left ; 
+    background-color: rgb(218, 151, 70);
+}
+.Projects .containerproj .row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.Projects .containerproj{
+   display: grid;
+   grid-template-rows: repeat(3);
+   justify-content: center;
+   align-items: center;
+    margin-top: 100px;
+}
+.item-content{
+    width:100%;
+}
+.Contactme{
+    width: 100%;
+    margin: auto;
+    height: 100vh;  
+    margin-top: 30px;
+}
+.contenair .contactinfo{
+    width: 50%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.contactinfo img:hover, .contact img:hover{
+    transform: scale(1.2);
+}
+.contactinfo img,.contact img{
+ width: 37px;
+ margin: 15px;
+ transition: 0.3s; 
+    cursor: pointer;
+}
+.contactinfo .F{
+    color:blueviolet;
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contactinfo .F:active{
+    color: rgb(198, 180, 180);
+}
+.contactinfo .F img{
+    width: 28px;
+    transition: 0.5s; 
+    cursor: pointer;
+    animation: zoomAnimation 1.5s infinite alternate;
+   }
+::-webkit-scrollbar
+{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb
+{
+    border: 4px groove blueviolet;
+    border-radius: 0px ;
+}
+::-webkit-scrollbar-track-piece
+{
+ background-color: rgba(195, 198, 197, 0.861);
+}
